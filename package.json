@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/apporoad/LiSA.sing.js/issues"
   },
-  "homepage": "https://github.com/apporoad/LiSA.sing.js#readme"
+  "homepage": "https://github.com/apporoad/LiSA.sing.js#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "moment": "^2.24.0"
+  },
+  "bin":{
+    "sing" :"./bin.js",
+    "LiSA.sing" : "./bin.js"
+  }
 }
